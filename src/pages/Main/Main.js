@@ -8,16 +8,14 @@ import './Main.css';
 import { checkBrowser } from '../utilities';
 
 const Main = ({ nightMode, toggleNightMode }) => {
-  const [src, setSrc] = useState(
-    `${process.env.PUBLIC_URL}/images/pixcomp.jpg`
-  );
+  const [src, setSrc] = useState(process.env.PUBLIC_URL + '/images/pixcomp.jpg');
   const { isChrome, isFirefox } = checkBrowser();
 
   const cannotUseWebp = !isChrome && !isFirefox;
 
   const myImg = cannotUseWebp
-    ? `${process.env.PUBLIC_URL}/images/computer.png`
-    : `${process.env.PUBLIC_URL}/images/computer.webp`;
+    ? process.env.PUBLIC_URL + '/images/computer.png'
+    : process.env.PUBLIC_URL + '/images/computer.webp';
 
   useMemo(() => {
     const imageToLoad = new Image();

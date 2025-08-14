@@ -8,13 +8,13 @@ const NavBar = ({theme, toggleNightMode}) => {
             <a href="#intro" className="nav__logo--link">
                 {theme === false ? (
                     <img
-                        src="/images/Logo-black.png"
+                        src={process.env.PUBLIC_URL + '/images/Logo-black.png'}
                         alt="logo"
                         className="nav__logo"
                     />
                 ) : (
                     <img
-                        src="/images/Logo-white.png"
+                        src={process.env.PUBLIC_URL + '/images/Logo-white.png'}
                         alt="logo"
                         className="nav__logo"
                     />

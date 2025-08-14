@@ -14,9 +14,9 @@ const Intro = ({ src, cannotUseWebp }) => {
             </div>
             { cannotUseWebp ?
                 (
-                    <img src="/images/suzy.jpg" alt="suzy" className="intro__img" />
+                    <img src={process.env.PUBLIC_URL + '/images/suzy.jpg'} alt="suzy" className="intro__img" />
                 ) : (
-                    <img src="/images/suzy.webp" alt="suzy" className="intro__img" />
+                    <img src={process.env.PUBLIC_URL + '/images/suzy.webp'} alt="suzy" className="intro__img" />
                 )
             }
         </div>
