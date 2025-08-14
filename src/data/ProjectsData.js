@@ -1,8 +1,8 @@
 const projectsData = [
   {
     name: "The Ninja Board",
-    image: "/images/ninja.jpg",
-    imageWebp: "/images/ninja.webp",
+    image: process.env.PUBLIC_URL + "/images/ninja.jpg",
+    imageWebp: process.env.PUBLIC_URL + "/images/ninja.webp",
     url:
       "https://roger-takeshita.github.io/Mintbean_Hackathons_JS_Bootcamp_Olympics/",
     git: "https://github.com/suzynakayama/ninja-board",
@@ -14,8 +14,8 @@ const projectsData = [
   },
   {
     name: "Code Mentoring",
-    image: "/images/cm.png",
-    imageWebp: "/images/cm.webp",
+    image: process.env.PUBLIC_URL + "/images/cm.png",
+    imageWebp: process.env.PUBLIC_URL + "/images/cm.webp",
     url: "https://codementoring.co/",
     git: "https://github.com/code-mentoring/learn",
     description:
@@ -27,8 +27,8 @@ const projectsData = [
   },
   {
     name: "Yuki, the Chatbot!",
-    image: "/images/yuki.png",
-    imageWebp: "/images/yuki.webp",
+    image: process.env.PUBLIC_URL + "/images/yuki.png",
+    imageWebp: process.env.PUBLIC_URL + "/images/yuki.webp",
     url: "https://yuki-chatbot.herokuapp.com/",
     git: "https://github.com/suzynakayama/chatbot",
     description:
@@ -39,8 +39,8 @@ const projectsData = [
   },
   {
     name: "Footer NPM Package",
-    image: "/images/npm-logo.png",
-    imageWebp: "/images/npm-logo.webp",
+    image: process.env.PUBLIC_URL + "/images/npm-logo.png",
+    imageWebp: process.env.PUBLIC_URL + "/images/npm-logo.webp",
     url: "https://www.npmjs.com/package/react-myfooter",
     git: "https://github.com/suzynakayama/myfooter-package",
     description:
@@ -51,8 +51,8 @@ const projectsData = [
   },
   {
     name: "The Path",
-    image: "/images/path.jpeg",
-    imageWebp: "/images/path.webp",
+    image: process.env.PUBLIC_URL + "/images/path.jpeg",
+    imageWebp: process.env.PUBLIC_URL + "/images/path.webp",
     url: "https://the-path.herokuapp.com/",
     git: "https://github.com/suzynakayama/the-path",
     description: `This is a MERN stack Single Page App (SPA) where the user can create his account, plan a trip, search for places to visit and create daily itineraries.
@@ -65,8 +65,8 @@ const projectsData = [
   },
   {
     name: "Jobbly",
-    image: "/images/jobbly.png",
-    imageWebp: "/images/jobbly.webp",
+    image: process.env.PUBLIC_URL + "/images/jobbly.png",
+    imageWebp: process.env.PUBLIC_URL + "/images/jobbly.webp",
     url: "https://jobbly-tracker.herokuapp.com/",
     git: "https://github.com/suzynakayama/jobbly",
     description: `Responsive full-stack CRUD application that helps users to keep track of their job search maintaining a database of applications and contacts, adding interviews on their calendar and staying updated with the latest tech news.
@@ -79,8 +79,8 @@ const projectsData = [
   },
   {
     name: "Simon 2.0 World",
-    image: "/images/simon.png",
-    imageWebp: "/images/simon.webp",
+    image: process.env.PUBLIC_URL + "/images/simon.png",
+    imageWebp: process.env.PUBLIC_URL + "/images/simon.webp",
     url: "https://suzynakayama.github.io/simon/",
     git: "https://github.com/suzynakayama/simon",
     description:
@@ -91,8 +91,8 @@ const projectsData = [
   },
   {
     name: "Instagames",
-    image: "/images/instagames.png",
-    imageWebp: "/images/instagames.webp",
+    image: process.env.PUBLIC_URL + "/images/instagames.png",
+    imageWebp: process.env.PUBLIC_URL + "/images/instagames.webp",
     url: "https://myinstagames.herokuapp.com/",
     git: "https://github.com/suzynakayama/instagames",
     description:
@@ -104,8 +104,8 @@ const projectsData = [
   },
   {
     name: "Rock Paper Scissors Lizard Spock",
-    image: "/images/rpsls.png",
-    imageWebp: "/images/rpsls.webp",
+    image: process.env.PUBLIC_URL + "/images/rpsls.png",
+    imageWebp: process.env.PUBLIC_URL + "/images/rpsls.webp",
     url: "https://suzynakayama.github.io/RockPaperScissorsLizardSpock/",
     git: "https://github.com/suzynakayama/RockPaperScissorsLizardSpock",
     description:
@@ -116,8 +116,8 @@ const projectsData = [
   },
   {
     name: "Tic-Tac-Toe",
-    image: "/images/tictactoe.png",
-    imageWebp: "/images/tictactoe.webp",
+    image: process.env.PUBLIC_URL + "/images/tictactoe.png",
+    imageWebp: process.env.PUBLIC_URL + "/images/tictactoe.webp",
     url: "https://suzynakayama.github.io/TicTacToe/",
     git: "https://github.com/suzynakayama/TicTacToe",
     description:
