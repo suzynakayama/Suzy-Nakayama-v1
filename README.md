@@ -1,4 +1,4 @@
-[Portfolio V1](https://suzynakayama-v1.netlify.app/) - Tech: React, CSS, JavaScript, API's, deployed with netlify.
+[Portfolio V1](https://suzynakayama-v1.netlify.app/) - Tech: React, CSS, JavaScript, API's, deployed with Netlify.
 
 [Portfolio V2 Live](https://www.suzynakayama.com)
 
